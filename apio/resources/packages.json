@@ -62,12 +62,11 @@
       "compressed_name": "tool-icoprog-%P-%V",
       "uncompressed_name": "",
       "package_name": "tool-icoprog",
-      "extension": "zip",
+      "extension": "tar.gz",
       "url_version": "https://github.com/zflorian/tool-icoprog/raw/main/VERSION",
       "available_platforms": [
         "windows",
-        "windows_x86",
-        "windows_amd64"
+        "windows_x86"
       ]
     },
     "description": "icoprog tool for Windows"
