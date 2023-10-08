@@ -97,6 +97,14 @@
     },
     "platform": "linux_armv7l"
   },
+  "icoboard_local": {
+
+    "name": "icoBOARD 1.0",
+    "fpga": "iCE40-HX8K-CT256",
+    "programmer": {
+      "type": "icoprog_ftdi"
+    }
+  },
   "Cat-board": {
     "name": "CAT Board",
     "fpga": "iCE40-HX8K-CT256",

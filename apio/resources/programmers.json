@@ -12,6 +12,10 @@
     "command": "export WIRINGPI_GPIOMEM=1; icoprog",
     "args": "-p <"
   },
+  "icoprog_ftdi": {
+    "command": "icoprog",
+    "args": "-p <"
+  },
   "litterbox": {
     "command": "sudo litterbox",
     "args": "-c",
