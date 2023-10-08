@@ -66,10 +66,12 @@
       "url_version": "https://github.com/zflorian/tool-icoprog/raw/main/VERSION",
       "available_platforms": [
         "windows",
-        "windows_x86"
+        "windows_x86",
+        "linux_aarch64",
+        "linux"
       ]
     },
-    "description": "icoprog tool for Windows"
+    "description": "icoprog tool for windows and linux"
   },
 
   "drivers": {
