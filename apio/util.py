@@ -38,6 +38,7 @@ from apio import LOAD_CONFIG_DATA
 # --
 OSS_CAD_SUITE = "oss-cad-suite"
 GTKWAVE = "gtkwave"
+ICOPROG = "icoprog"
 
 # -- Name of the subfolder to store de executable files
 BIN = "bin"
@@ -46,6 +47,7 @@ BIN = "bin"
 # -- packages names
 OSS_CAD_SUITE_FOLDER = f"tools-{OSS_CAD_SUITE}"
 GTKWAVE_FOLDER = f"tool-{GTKWAVE}"
+ICOPROG_FOLDER = f"tool-{ICOPROG}"
 
 
 # pylint: disable=E1101
@@ -336,6 +338,8 @@ def set_env_variables(base_dir, bin_dir):
         # -- Gtkwave package is installed
         if bin_dir[GTKWAVE] != "":
             path = os.pathsep.join([bin_dir.get(GTKWAVE), path])
+        if bin_dir[ICOPROG] != "":
+            path = os.pathsep.join([bin_dir.get(ICOPROG), path])
 
     # -- Add the binary folders of the installed packages
     # -- to the path, except for the OSS_CAD_SUITE package
@@ -422,6 +426,7 @@ def get_base_dir():
     base_dir = {
         OSS_CAD_SUITE: get_package_dir(OSS_CAD_SUITE_FOLDER),
         GTKWAVE: get_package_dir(GTKWAVE_FOLDER),
+        ICOPROG: get_package_dir(ICOPROG_FOLDER),
     }
 
     return base_dir
@@ -436,6 +441,7 @@ def get_bin_dir_table(base_dir):
     bin_dir = {
         OSS_CAD_SUITE: str(Path(base_dir.get(OSS_CAD_SUITE)) / BIN),
         GTKWAVE: str(Path(base_dir.get(GTKWAVE)) / BIN),
+        ICOPROG: str(Path(base_dir.get(ICOPROG)) / BIN),
     }
 
     return bin_dir

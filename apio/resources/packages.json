@@ -52,6 +52,27 @@
     "description": "GTKWave tool for Windows"
   },
 
+  "icoprog": {
+    "repository": {
+      "name": "tool-icoprog",
+      "organization": "zflorian"
+    },
+    "release": {
+      "tag_name": "%V",
+      "compressed_name": "tool-icoprog-%P-%V",
+      "uncompressed_name": "",
+      "package_name": "tool-icoprog",
+      "extension": "zip",
+      "url_version": "https://github.com/zflorian/tool-icoprog/raw/main/VERSION",
+      "available_platforms": [
+        "windows",
+        "windows_x86",
+        "windows_amd64"
+      ]
+    },
+    "description": "icoprog tool for Windows"
+  },
+
   "drivers": {
     "repository": {
       "name": "tools-drivers",
