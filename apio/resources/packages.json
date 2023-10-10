@@ -67,6 +67,7 @@
       "available_platforms": [
         "windows",
         "windows_x86",
+        "windows_amd64",
         "linux_aarch64",
         "linux"
       ]
