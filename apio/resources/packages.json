@@ -69,7 +69,7 @@
         "windows_x86",
         "windows_amd64",
         "linux_aarch64",
-        "linux"
+        "linux_x86_64"
       ]
     },
     "description": "icoprog tool for windows and linux"
