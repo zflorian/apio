@@ -30,7 +30,7 @@
       "release": {
         "version": "2025.10.14",
         "release-tag": "${YYYY-MM-DD}",
-        "package-file": "tool-icoproc-${PLATFORM}_${YYYYMMDD}.tar.gz"
+        "package-file": "tool-icoprog-${PLATFORM}_${YYYYMMDD}.tar.gz"
       }
     },
     // -- OSS cad suite
