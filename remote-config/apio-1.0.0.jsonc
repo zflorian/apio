@@ -22,6 +22,28 @@
         "package-file": "apio-examples-${YYYYMMDD}.tgz"
       }
     },
+    "icoprog": {
+      "repository": {
+        "name": "tool-icoprog",
+        "organization": "zflorian"
+      },
+      "release": {
+        "tag_name": "%V",
+        "compressed_name": "tool-icoprog-%P-%V",
+        "uncompressed_name": "",
+        "package_name": "tool-icoprog",
+        "extension": "tar.gz",
+        "url_version": "https://github.com/zflorian/tool-icoprog/raw/main/VERSION",
+        "available_platforms": [
+          "windows",
+          "windows_x86",
+          "windows_amd64",
+          "linux_aarch64",
+          "linux_x86_64"
+        ]
+      },
+      "description": "icoprog tool for windows and linux"
+    },
     // -- OSS cad suite
     "oss-cad-suite": {
       "repository": {
