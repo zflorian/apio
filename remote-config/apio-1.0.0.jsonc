@@ -28,21 +28,10 @@
         "organization": "zflorian"
       },
       "release": {
-        "tag_name": "%V",
-        "compressed_name": "tool-icoprog-%P-%V",
-        "uncompressed_name": "",
-        "package_name": "tool-icoprog",
-        "extension": "tar.gz",
-        "url_version": "https://github.com/zflorian/tool-icoprog/raw/main/VERSION",
-        "available_platforms": [
-          "windows",
-          "windows_x86",
-          "windows_amd64",
-          "linux_aarch64",
-          "linux_x86_64"
-        ]
-      },
-      "description": "icoprog tool for windows and linux"
+        "version": "2025.10.14",
+        "release-tag": "${YYYY-MM-DD}",
+        "package-file": "tool-icoproc-$P_${YYYYMMDD}.tar.gz"
+      }
     },
     // -- OSS cad suite
     "oss-cad-suite": {
