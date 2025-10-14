@@ -27,6 +27,15 @@
       }
     }
   },
+  // "icoprog" package
+  "icoprog": {
+    "description": "Icoprog",
+    "env": {
+      "path": [
+        "%p/bin"
+      ]
+    }
+  },
   // "graphviz" package
   "graphviz": {
     "restricted-to-platforms": [

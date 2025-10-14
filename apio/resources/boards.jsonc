@@ -28,6 +28,24 @@
       "product-regex": "^Alchitry Cu"
     }
   },
+  // https://www.latticesemi.com/Products/DevelopmentBoardsAndKits/iCE40HX8KBreakoutBoard.aspx
+  "icoboard": {
+    "legacy-name": "icoboard",
+    "description": "icoboard",
+    "fpga-id": "ice40hx8k-ct256",
+    "programmer": {
+      "id": "icoprog"
+    }
+  },
+  "icoboard-openfpgaloader": {
+    "legacy-name": "icoboard-openfpgaloader",
+    "description": "icoboard-openfpgaloader",
+    "fpga-id": "ice40hx8k-ct256",
+    "programmer": {
+      "id": "openfpgaloader",
+      "extra-args": "-c ftdi --spi --ftdi-channel B --ftdi-layout \"0:1:2:3:7:6\""
+    }
+  },
   // https://github.com/FPGAwars/Alhambra-II-FPGA
   "alhambra-ii": {
     "description": "Alhambra II",

@@ -35,6 +35,10 @@
     // Alhambra-ii boards that don't have serial number.
     "args": "-d d:${BUS}/${DEV}"
   },
+  "icoprog": {
+    "command": "icoprog",
+    "args": "-p < "
+  },
   "pi-sicle-loader": {
     "command": "pi-sicle-loader",
     "args": "--flash"
